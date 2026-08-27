@@ -1,0 +1,23 @@
+%% Add to your LaTeX preamble: \usepackage{pifont} \newcommand{\cmark}{\ding{51}} \newcommand{\xmark}{\ding{55}}
+
+\begin{table}
+\caption{Detailed Sim2Real outcome. \cmark: Success in both. \textbf{S}: Success in Simulation only. \textbf{R}: Success in Real World only. \xmark: Failure in both.}
+\label{tab:detailed_sim2real_outcome}
+\begin{tabular}{l c c c}
+\toprule
+ & Start X (m) & Start Y (m) & Outcome \\
+Trial ID &  &  &  \\
+\midrule
+0 & 0.165 & 0.235 & \xmark \\
+1 & 0.175 & 0.071 & \xmark \\
+2 & 0.324 & 0.055 & \textbf{R} \\
+3 & 0.447 & 0.211 & \xmark \\
+4 & 0.377 & 0.320 & \xmark \\
+5 & 0.439 & -0.101 & \xmark \\
+6 & 0.465 & -0.264 & \textbf{R} \\
+7 & 0.359 & -0.274 & \xmark \\
+8 & 0.258 & -0.169 & \xmark \\
+9 & 0.323 & -0.134 & \xmark \\
+\bottomrule
+\end{tabular}
+\end{table}
