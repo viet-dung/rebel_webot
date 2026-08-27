@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs (keep out unless intentionally shared)
+log.txt
+sim_log.txt
+*.log
+
+# Training artifacts that are usually too large / regenerable
+sac_stack_tensorboard/
+*_replay_buffer.pkl
+policy_comparison_results/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Large model checkpoints — track selectively, see README
+# (uncomment if you decide not to keep best_model in git)
+# best_model/
+# sac_stack_best/

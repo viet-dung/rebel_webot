@@ -1,0 +1,9 @@
+# Fill in exact versions with `pip freeze > requirements.txt`
+# once your environment is finalized. Placeholder based on
+# what this project appears to use:
+
+stable-baselines3
+gymnasium
+numpy
+matplotlib
+torch
